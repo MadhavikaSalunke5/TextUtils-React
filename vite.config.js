@@ -4,5 +4,8 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
-  base: '/TextUtils-React/',   // 👈 change to YOUR repo name
+  server: {
+    port: 5173,   // you can change this to any port
+    host: '0.0.0.0'
+  }
 })

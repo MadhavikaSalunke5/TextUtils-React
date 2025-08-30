@@ -104,56 +104,56 @@ function Textform(props) {
         <div className="mt-3">
           <button
             type="button"
-            className="btn btn-primary btn-sm mx-2"
+            className="btn btn-primary btn-sm mx-2 my-2"
             onClick={handleUpperCase}
           >
             Convert to UPPERCASE
           </button>
           <button
             type="button"
-            className="btn btn-primary btn-sm mx-2"
+            className="btn btn-primary btn-sm mx-2 my-2"
             onClick={handleLowerCase}
           >
             Convert to lowercase
           </button>
           <button
             type="button"
-            className="btn btn-primary btn-sm mx-2"
+            className="btn btn-primary btn-sm mx-2 my-2"
             onClick={handleCapitalizeEachWord}
           >
             Capitalize Each Word
           </button>
           <button
             type="button"
-            className="btn btn-primary btn-sm mx-2"
+            className="btn btn-primary btn-sm mx-2 my-2"
             onClick={handleCapitalizeFirstLetter}
           >
             Capitalize First Letter
           </button>
           <button
             type="button"
-            className="btn btn-primary btn-sm mx-2"
+            className="btn btn-primary btn-sm mx-2 my-2"
             onClick={handleReverseText}
           >
             Reverse Text
           </button>
           <button
             type="button"
-            className="btn btn-primary btn-sm mx-2"
+            className="btn btn-primary btn-sm mx-2 my-2"
             onClick={handleRemoveSpaces}
           >
             Remove Extra Spaces
           </button>
           <button
             type="button"
-            className="btn btn-success btn-sm mx-2"
+            className="btn btn-success btn-sm mx-2 my-2"
             onClick={handleCopy}
           >
             Copy Text
           </button>
           <button
             type="button"
-            className="btn btn-danger btn-sm mx-2"
+            className="btn btn-danger btn-sm mx-2 my-2"
             onClick={handleClear}
           >
             Clear the Screen
@@ -182,3 +182,4 @@ function Textform(props) {
 }
 
 export default Textform;
+
